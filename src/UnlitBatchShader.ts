@@ -1,4 +1,4 @@
-import { RawUniformsGroup, Color, Matrix4, ClampToEdgeWrapping, RepeatWrapping, MirroredRepeatWrapping } from "three";
+import { Color, Matrix4, ClampToEdgeWrapping, RepeatWrapping, MirroredRepeatWrapping } from "three";
 import WebGLAtlasTexture, { LayerID, UVTransform } from "./WebGLAtlasTexture";
 import { BatchableMesh } from ".";
 
@@ -26,7 +26,7 @@ const HIDE_MATRIX = new Matrix4().makeScale(0, 0, 0);
 
 const tempUvTransform: UVTransform = [0, 0, 0, 0];
 
-export class BatchRawUniformGroup extends RawUniformsGroup {
+export class BatchRawUniformGroup {
   transforms: Float32Array;
   colors: Float32Array;
   uvTransforms: Float32Array;
