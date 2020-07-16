@@ -1,4 +1,5 @@
-import { RawUniformsGroup, Color, Matrix4 } from "three";
+import { Color, Matrix4 } from "three";
+import { RawUniformsGroup } from "./RawUniformsGroup";
 import WebGLAtlasTexture, { LayerID } from "./WebGLAtlasTexture";
 import { BatchableMesh } from ".";
 export declare const INSTANCE_DATA_BYTE_LENGTH = 112;
