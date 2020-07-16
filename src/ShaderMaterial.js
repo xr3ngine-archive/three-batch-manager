@@ -20,11 +20,10 @@
  */
 
 import { Material } from 'three';
-import { cloneUniforms } from 'three';
-import { cloneUniformsGroups } from 'three';
+import { cloneUniforms, cloneUniformsGroups } from './UniformsUtils.js';
 
-import default_vertex from 'three';
-import default_fragment from 'three';
+import default_vertex from './default_vertex.glsl';
+import default_fragment from './default_fragment.glsl';
 
 function ShaderMaterial( parameters ) {
 
