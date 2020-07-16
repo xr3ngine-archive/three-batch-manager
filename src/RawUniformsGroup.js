@@ -1,4 +1,4 @@
-import { UniformsGroup } from 'three';
+import { UniformsGroup } from './UniformsGroup';
 
 /**
  * @author robertlong / https://github.com/robertlong

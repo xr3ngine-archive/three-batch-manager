@@ -1,6 +1,5 @@
 import {
   Mesh,
-  RawShaderMaterial,
   BufferGeometry,
   Uint32BufferAttribute,
   Float32BufferAttribute,
@@ -14,6 +13,7 @@ import {
   Fog,
   FogExp2
 } from "three";
+import { RawShaderMaterial } from "./RawShaderMaterial"
 import WebGLAtlasTexture from "./WebGLAtlasTexture";
 import { vertexShader, fragmentShader, BatchRawUniformGroup } from "./UnlitBatchShader";
 

@@ -1,4 +1,5 @@
-import { Mesh, RawShaderMaterial, BufferGeometry, MeshStandardMaterial, Scene, WebGLRenderer, BufferAttribute, MeshBasicMaterial, Color, Vector4 } from "three";
+import { Mesh, BufferGeometry, MeshStandardMaterial, Scene, WebGLRenderer, BufferAttribute, MeshBasicMaterial, Color, Vector4 } from "three";
+import { RawShaderMaterial } from "./RawShaderMaterial";
 import WebGLAtlasTexture from "./WebGLAtlasTexture";
 import { BatchRawUniformGroup } from "./UnlitBatchShader";
 interface BatchableBufferGeometry extends BufferGeometry {
